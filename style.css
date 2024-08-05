@@ -1,0 +1,17 @@
+#header {
+    background-color: aqua;
+    width: 100%;
+    height: 60px;
+}
+
+#sidebar {
+    background-color: coral;
+    width: 100px;
+    height: 100vh;
+}
+
+#content {
+    background-color: chartreuse;
+    width: 500px;
+    height: 500px;
+}
