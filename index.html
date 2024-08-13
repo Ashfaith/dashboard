@@ -9,10 +9,13 @@
 </head>
 <body>
     <div class="page-container">
-
+        <!-- HEADER -->
         <div id="header">
             <div id="header-left">
-                <input id="search" type="text" placeholder="Search..">
+                <div id="search-container">
+                    <span id="search-icon" class="material-symbols-outlined">search</span>
+                    <input id="search-bar" type="text">
+                </div>
                 <div id="user-container">
                     <img id="main-pfp" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/994c107a-87fe-4437-9c27-7f5173301252/d2ti219-eacba25e-59dd-4268-bd47-7decfe7b1772.jpg/v1/fill/w_900,h_831,q_75,strp/master_chief__halo_3_by_zippy5454_d2ti219-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODMxIiwicGF0aCI6IlwvZlwvOTk0YzEwN2EtODdmZS00NDM3LTljMjctN2Y1MTczMzAxMjUyXC9kMnRpMjE5LWVhY2JhMjVlLTU5ZGQtNDI2OC1iZDQ3LTdkZWNmZTdiMTc3Mi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ghnoaQFh2OgUlu8Tg_MqCNDZEvi5X3S_6Z1SEKSbyds"></img>
                         <div id="greeting-container">
@@ -35,41 +38,176 @@
             </div>
         </div>
 
+
+        <!-- SIDEBAR -->
         <div id="sidebar">
             <div id="side-heading-container">
-                <h2 id="side-heading">Dashboard</h2>
+                <h2 id="side-heading">
+                    <span id="side-heading-icon" class="material-symbols-outlined">dashboard</span>    
+                Dashboard
+                </h2>
             </div>
             <div id="menu">
                 <div id="navigation-items">
-                    <div id="home">Home</div>
-                    <div id="profile">Profile</div>
-                    <div id="messages">Messages</div>
-                    <div id="history">History</div>
-                    <div id="tasks">Tasks</div>
-                    <div id="communities">Communities</div>
+                    <div class="menu-item" id="home">
+                        <span class="material-symbols-outlined">home</span>
+                    Home
+                    </div>
+                    <div class="menu-item" id="profile">
+                        <span class="material-symbols-outlined">person</span>    
+                    Profile
+                    </div>
+                    <div class="menu-item" id="messages">
+                        <span class="material-symbols-outlined">chat</span> 
+                    Messages
+                    </div>
+                    <div class="menu-item" id="history">
+                        <span class="material-symbols-outlined">history</span>
+                    History
+                    </div>
+                    <div class="menu-item" id="tasks">
+                        <span class="material-symbols-outlined">task</span>
+                    Tasks
+                    </div>
+                    <div class="menu-item" id="communities">
+                        <span class="material-symbols-outlined">groups</span>
+                    Communities
+                    </div>
                 </div>
                 <div id="admin-items">
-                    <div id="settings">Settings</div>
-                    <div id="Support">Support</div>
-                    <div id="Privacy">Privacy</div>
+                    <div class="menu-item" id="settings">
+                        <span class="material-symbols-outlined">settings</span>
+                    Settings
+                    </div>
+                    <div class="menu-item" id="Support">
+                        <span class="material-symbols-outlined">help</span>
+                    Support
+                    </div>
+                    <div class="menu-item" id="Privacy">
+                        <span class="material-symbols-outlined">security</span>
+                    Privacy
+                    </div>
                 </div>
             </div>
         </div>
 
 
+        <!-- MAIN CONTENT -->
         <div id="content">
-            <div id="item-container">
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-                <div class="menu-item"></div>
-            </div>
-            <div id="events-container">
-                <div class="events" id="announcements"></div>
-                <div class="events" id="trending"></div>
-            </div>
+                    <div class="tile-item">
+                        <div class="tile-text-container">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi eos architecto tempore veritatis quo expedita incidunt minus at obcaecati.</p>
+                            <div class="buttons">
+                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-item">
+                        <div class="tile-text-container">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi eos architecto tempore veritatis quo expedita incidunt minus at obcaecati.</p>
+                            <div class="buttons">
+                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-item">
+                        <div class="tile-text-container">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi eos architecto tempore veritatis quo expedita incidunt minus at obcaecati.</p>
+                            <div class="buttons">
+                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-item">
+                        <div class="tile-text-container">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi eos architecto tempore veritatis quo expedita incidunt minus at obcaecati.</p>
+                            <div class="buttons">
+                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-item">
+                        <div class="tile-text-container">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi eos architecto tempore veritatis quo expedita incidunt minus at obcaecati.</p>
+                            <div class="buttons">
+                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">link</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile-item">
+                        <div class="tile-text-container">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi eos architecto tempore veritatis quo expedita incidunt minus at obcaecati.</p>
+                            <div class="buttons">
+                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">link</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+                    <div id="events-container">
+                        <div class="events" id="announcements">
+                            <div class="announcement">
+                                <h5>Announcemnt</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nostrum?</p>
+                            </div>
+                            <div class="announcement">
+                                <h5>Announcemnt</h5>
+                                <p>Exercitationem distinctio voluptatum dolore, ea voluptate, unde corrupti.</p>
+                            </div>
+                            <div class="announcement">
+                                <h5>Announcemnt</h5>
+                                <p>Autem harum officiis nihil dolor unde, beatae dolorum vitae ab amet labore voluptates cupiditate.</p>
+                            </div>
+                        </div>
+
+                        <div class="events" id="trending">
+                            <div class="other-user">
+                                <img src="https://steamuserimages-a.akamaihd.net/ugc/786371856221183225/2F04B32CA10AD1ADBC01CE5D4DC6F7AF0E96AE6C/?imw=512&imh=512&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"></img>
+                                <div>
+                                    <h5>@genericUserName</h5>
+                                    <p>Using this app</p>
+                                </div>
+                            </div>
+                            <div class="other-user">
+                                <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/01/Blue-Face-Man.png"></img>
+                                <div>
+                                    <h5>@genericUserName</h5>
+                                    <p>Using this app</p>
+                                </div>
+                            </div>
+                            <div class="other-user">
+                                <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/01/Monkey.png"></img>
+                                <div>
+                                    <h5>@genericUserName</h5>
+                                    <p>Using this app</p>
+                                </div>
+                            </div>
+                            <div class="other-user">
+                                <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/01/Anime.png"></img>
+                                <div>
+                                    <h5>@genericUserName</h5>
+                                    <p>Using this app</p>
+                                </div>
+                            </div>
+                    </div>
         </div>
     </div>    
 </body>
